@@ -1,0 +1,40 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430_\\u043f\\u043c\\u044d\\u0444\"}}]": "action_suggest_program",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430_\\u043f\\u043c\\u044d\\u0444\"}}, {\"prev_action\": {\"action_name\": \"action_suggest_program\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430_\\u043f\\u043c\\u044d\\u0444\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0430\\u0441\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435_\\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\"}}]": "action_provide_schedule",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0430\\u0441\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435_\\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\"}}, {\"prev_action\": {\"action_name\": \"action_provide_schedule\"}, \"user\": {\"intent\": \"\\u0440\\u0430\\u0441\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435_\\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u043e\\u0449\\u0430\\u043d\\u0438\\u0435\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u043e\\u0449\\u0430\\u043d\\u0438\\u0435\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u043e\\u0449\\u0430\\u043d\\u0438\\u0435\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044f_\\u043e_\\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044f\\u0445\"}}]": "action_locations_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044f_\\u043e_\\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044f\\u0445\"}}, {\"prev_action\": {\"action_name\": \"action_locations_info\"}, \"user\": {\"intent\": \"\\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044f_\\u043e_\\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044f\\u0445\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\"}}]": "action_provide_transport_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\"}}, {\"prev_action\": {\"action_name\": \"action_provide_transport_info\"}, \"user\": {\"intent\": \"\\u0442\\u0440\\u0430\\u043d\\u0441\\u043f\\u043e\\u0440\\u0442\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u0438\"}}]": "utter_news",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u0438\"}}, {\"prev_action\": {\"action_name\": \"utter_news\"}, \"user\": {\"intent\": \"\\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u0438\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f\"}}]": "action_registration_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f\"}}, {\"prev_action\": {\"action_name\": \"action_registration_info\"}, \"user\": {\"intent\": \"\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442\\u0441\\u0442\\u0432\\u0438\\u0435\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442\\u0441\\u0442\\u0432\\u0438\\u0435\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442\\u0441\\u0442\\u0432\\u0438\\u0435\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0443\\u0447\\u0430\\u0441\\u0442\\u043d\\u0438\\u043a\\u0438_\\u043f\\u043c\\u044d\\u0444\"}}]": "action_participants_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0443\\u0447\\u0430\\u0441\\u0442\\u043d\\u0438\\u043a\\u0438_\\u043f\\u043c\\u044d\\u0444\"}}, {\"prev_action\": {\"action_name\": \"action_participants_info\"}, \"user\": {\"intent\": \"\\u0443\\u0447\\u0430\\u0441\\u0442\\u043d\\u0438\\u043a\\u0438_\\u043f\\u043c\\u044d\\u0444\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0437\\u0430\\u043f\\u0440\\u043e\\u0441_\\u043f\\u043e\\u043c\\u043e\\u0449\\u0438\"}}]": "utter_help",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0437\\u0430\\u043f\\u0440\\u043e\\u0441_\\u043f\\u043e\\u043c\\u043e\\u0449\\u0438\"}}, {\"prev_action\": {\"action_name\": \"utter_help\"}, \"user\": {\"intent\": \"\\u0437\\u0430\\u043f\\u0440\\u043e\\u0441_\\u043f\\u043e\\u043c\\u043e\\u0449\\u0438\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0437\\u0430\\u043f\\u0440\\u043e\\u0441_\\u043f\\u043e\\u043c\\u043e\\u0449\\u0438\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0430\\u0441\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435_\\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0437\\u0430\\u043f\\u0440\\u043e\\u0441_\\u043f\\u043e\\u043c\\u043e\\u0449\\u0438\"}}, {\"prev_action\": {\"action_name\": \"utter_help\"}, \"user\": {\"intent\": \"\\u0437\\u0430\\u043f\\u0440\\u043e\\u0441_\\u043f\\u043e\\u043c\\u043e\\u0449\\u0438\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f\"}}, {\"prev_action\": {\"action_name\": \"action_registration_info\"}, \"user\": {\"intent\": \"\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"\\u0440\\u0430\\u0441\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435_\\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\"}}, {\"prev_action\": {\"action_name\": \"action_provide_schedule\"}, \"user\": {\"intent\": \"\\u0440\\u0430\\u0441\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435_\\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\"}}]"
+    ]
+  }
+}

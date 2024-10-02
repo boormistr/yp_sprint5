@@ -1,0 +1,41 @@
+version: "3.1"
+
+stories:
+  - story: Приветствие
+    steps:
+      - intent: приветствие
+      - action: utter_greet
+
+  - story: Запрос информации о программе
+    steps:
+      - intent: программа_пмэф
+      - action: utter_program
+
+  - story: Запрос информации об участниках
+    steps:
+      - intent: участники_пмэф
+      - action: utter_participants
+
+  - story: Запрос расписания мероприятий
+    steps:
+      - intent: расписание_мероприятий
+      - action: utter_schedule
+      - intent: уточнение_даты
+      - action: utter_clarify_date
+
+  - story: Запрос информации о локациях
+    steps:
+      - intent: информация_о_локациях
+      - action: utter_locations
+      - intent: уточнение_локации
+      - action: utter_clarify_location
+
+  - story: Прощание
+    steps:
+      - intent: прощание
+      - action: utter_goodbye
+
+  - story: Запрос новостей
+    steps:
+      - intent: новости
+      - action: utter_news

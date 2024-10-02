@@ -1,0 +1,62 @@
+version: "3.1"
+
+rules:
+  - rule: Приветствие
+    steps:
+      - intent: приветствие
+      - action: utter_greet
+
+  - rule: Прощание
+    steps:
+      - intent: прощание
+      - action: utter_goodbye
+
+  - rule: Запрос помощи
+    steps:
+      - intent: запрос_помощи
+      - action: utter_help
+
+  - rule: Программа ПМЭФ
+    steps:
+      - intent: программа_пмэф
+      - action: utter_program
+
+  - rule: Участники ПМЭФ
+    steps:
+      - intent: участники_пмэф
+      - action: utter_participants
+
+  - rule: Расписание мероприятий
+    steps:
+      - intent: расписание_мероприятий
+      - action: utter_schedule
+
+  - rule: Информация о локациях
+    steps:
+      - intent: информация_о_локациях
+      - action: utter_locations
+
+  - rule: Регистрация на ПМЭФ
+    steps:
+      - intent: регистрация
+      - action: utter_registration
+
+  - rule: Информация о транспорте
+    steps:
+      - intent: транспорт
+      - action: utter_transport
+
+  - rule: Новости ПМЭФ
+    steps:
+      - intent: новости
+      - action: utter_news
+
+  - rule: Уточнение даты
+    steps:
+      - intent: уточнение_даты
+      - action: utter_clarify_date
+
+  - rule: Уточнение локации
+    steps:
+      - intent: уточнение_локации
+      - action: utter_clarify_location
