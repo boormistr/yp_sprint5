@@ -23,6 +23,14 @@ loggers:
     level: DEBUG
     handlers: [console, file]
     propagate: True
+  rasa.core.processor:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: True
+  rasa.core.channels.channel:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: True
 root:
   level: DEBUG
   handlers: [console, file]
